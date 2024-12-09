@@ -14,14 +14,14 @@ header {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Logo on the left */
     align-items: center;
     padding: 0 20px;
 }
 
 .logo {
     max-width: 50px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -72,6 +72,6 @@ textarea {
 footer {
     margin-top: 20px;
     padding: 10px;
-    background-color: #333;
+    background-color: #4CAF50; /* Light Green */
     color: #fff;
 }

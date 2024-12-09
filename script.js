@@ -6,7 +6,7 @@ function generateBookmarklet() {
     const code = inputBox.value.trim();
 
     if (code) {
-        // Correcting the bookmarklet format by adding only one 'javascript:'
+        // Ensuring the format is correct by directly adding 'javascript:' before the code.
         const bookmarkletCode = `javascript:(${code});`;
         outputBox.value = bookmarkletCode;
         copyButton.style.display = 'inline-block';

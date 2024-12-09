@@ -7,13 +7,26 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4CAF50; /* Light Green */
     color: #fff;
-    padding: 20px;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
 }
 
 .links {
